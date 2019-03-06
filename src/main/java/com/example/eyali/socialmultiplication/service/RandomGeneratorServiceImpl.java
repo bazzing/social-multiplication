@@ -12,6 +12,6 @@ public class RandomGeneratorServiceImpl implements RandomGeneratorService {
 
     @Override
     public int generateRandomFactor() {
-        return new Random().nextInt(MAXIMUM_FACTOR-MAXIMUM_FACTOR+1)+MINIMUM_FACTOR;
+        return new Random().nextInt(MAXIMUM_FACTOR-MINIMUM_FACTOR+1)+MINIMUM_FACTOR;
     }
 }
